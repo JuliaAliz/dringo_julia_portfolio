@@ -1,0 +1,139 @@
+body {
+	  margin: 0;
+	  background-color: #bac9d6;
+	  font-family: Tw Cen MT;Tw Cen MT
+	}
+main {
+	padding: 20px;
+}
+
+.navigacio {
+
+		  overflow: hidden;
+		  background-color:#5c728c;
+		}
+
+.navigacio a {
+		  float: left;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none ;
+		  font-size: 17px;
+		}
+
+.navigacio a:hover {
+		  background-color: #ddd;
+		  color: black;
+		}
+
+.navigacio a.aktiv {
+		  background-color: #38414a;
+		  color: white;
+		}
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  	width: 20%;
+}
+
+
+.rejtett{
+    margin: 15px;
+    padding: 5px;
+
+
+}
+
+.kep{
+	max-width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	}
+
+.szoveg{
+	padding: 10px;
+}
+
+.tervs{
+	float: left;
+	padding: 20px;
+
+
+}
+
+.tervk{
+	display: block;
+  	padding: 5px;
+  	max-height: 350px;
+  	float: left;
+
+}
+
+
+summary{
+    cursor: pointer;
+  }
+
+details {
+	clear: left;
+	max-width: 800px;
+}
+
+details img {
+	margin: .6rem .6rem .6rem 0;
+}
+
+div{
+	margin: 6px
+	border: 1px solid black;
+}
+
+
+.oszlop {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.oszlop img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.oszlop img:hover {
+  opacity: 1;
+}
+
+.sor:after {
+  content: "";
+  display: inline-block; ;
+  clear: both;
+}
+
+.nagy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+ }
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.kozel {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
